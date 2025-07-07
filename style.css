@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+header{
+    display: flex;
+    margin-top: 10px;
+}
+
+.main-menu{
+    flex-grow: 1;
+}
+
+.main-menu-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu a{
+    font-size: 30px;
+    color: #2a3d8f;
+    line-height: 41px;
+}
+
+.main-menu a:hover{
+    color: #3893cc;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    color: #000;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.social-button{
+    margin: 0 10px;
+}
+
+.hashtag, .footer-social, .copyright{
+    margin: 0;
+    padding: 0;
+}
+
+.hashtag{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.copyright{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.footer-wrapper{
+    background-color: #b5d4c5;
+}
+
+
+.slogan{
+    height: 558px;
+    background-image: url(img/innsbruck1.png);
+    background-color: #dbe8f7;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.slogan h1{
+    margin: 0;
+    padding-top: 240px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 82px;
+}
+
+.about-numbers-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.about-numbers-list li::before{
+    content: "✓";
+    margin-right: 3px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.marketing{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/skier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    width: 30%;
+}
+
+.marketing p{
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 33px;
+    
+}
+
+.marketing a{
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    align-self: flex-end;
+    opacity: 0.7;
+}
+
+.about-weather-graph{
+    border: 1px solid #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.about-weather-graph figcaption{
+    font-size: 22px;
+    line-height: 33px;
+    background-color: #888;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+.gallery-list{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery-item{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    align-items: center;
+    min-height: 256px;
+    text-align: center;
+    color: #fff;
+    background-color: #b5d4c5;
+}
+
+.gallery-item h3{
+    text-transform: uppercase;
+    padding: 45px 59px 60px;
+    width: 400px;
+}
+
+.transfer{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.transfer thead{
+    background-color: rgb(32, 46, 92);
+    color: #fff;
+}
+
+.transfer td, .transfer th{
+    border: 1px solid #333;
+    padding: 5px;
+    text-align: center;
+}
